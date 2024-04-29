@@ -1,0 +1,27 @@
+h2,
+button {
+  /* Asegúrate de que estos elementos existen en el JSX */
+  padding: 10px;
+  margin: 15px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+}
+
+.Container{
+  display: flex;
+  flex-direction: row;
+  padding: 15px; 
+  gap: 25px;
+}
+
+.itemContainer {
+  width: fit-content;
+  padding: 10px;
+  height: min-content;
+  border: 2px solid rgb(45, 39, 39);
+  border-radius: 5px;
+ 
+}
