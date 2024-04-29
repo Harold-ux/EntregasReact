@@ -1,6 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100vh;
+  /* Toda la altura de la vista */
+}
+
 h2,
 button {
-  /* Asegúrate de que estos elementos existen en el JSX */
   padding: 10px;
   margin: 15px;
 }
@@ -10,18 +21,37 @@ button {
   align-items: center;
 }
 
-.Container{
+.Container {
+  gap: 20px;
   display: flex;
   flex-direction: row;
-  padding: 15px; 
-  gap: 25px;
+  /* Cambia a 'column' para alinear verticalmente */
+  justify-content: center;
+  align-items: center;
+  /* Centrar horizontalmente y verticalmente */
 }
 
 .itemContainer {
-  width: fit-content;
+  position: absolute; /* Posicionamiento absoluto */
+  top: 30%; /* Ajusta para moverlo hacia arriba o hacia abajo */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Centrar horizontalmente */
   padding: 10px;
-  height: min-content;
   border: 2px solid rgb(45, 39, 39);
   border-radius: 5px;
- 
+  background-color: white; /* Para que el fondo no sea transparente */
+  text-align: center;
+}
+
+
+.orden {
+  display: flex;
+  justify-content: center;
+  /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+  height: 100vh;
+  /* Puede ser diferente si necesitas altura completa */
+  background-color: #f0f0f0;
+  /* Color de fondo opcional */
 }

@@ -1,14 +1,12 @@
-import "./App.css"; // Asegúrate de importar correctamente el archivo CSS
+import "./App.css"; // Importar el CSS corregido
 import ItemCount from "./components/ItemCount";
 
 function App() {
   return (
-    <div>
-      {" "}
-      {/* Aplicar la clase CSS */}
+    <div className="orden"> {/* Aplicar la clase para centrar el contenido */}
       <ItemCount stock={10}>
         <div className="itemContainer">
-          <p>Contador con botones</p> {/* Contenido adicional */}
+          <p>Contador con botones</p>
           <span>Actividad N° 2</span>
         </div>
       </ItemCount>
