@@ -66,7 +66,9 @@ button {
   align-items: center;
   /* Centrar verticalmente */
   height: 100vh;
-  /* Puede ser diferente si necesitas altura completa */
-  background-color: #f0f0f0;
-  /* Color de fondo opcional */
+  background-image: url(assets/bckgCount.png);
+  background-size: contain; /* Hace que la imagen cubra todo el espacio */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  
 }
