@@ -43,6 +43,21 @@ button {
   text-align: center;
 }
 
+.botonCarrito {
+  position: absolute; /* Posicionamiento absoluto */
+  bottom: 20%; /* Ajusta para moverlo hacia arriba o hacia abajo */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Centrar horizontalmente */
+  border: 2px solid rgb(45, 39, 39);
+  border-radius: 5px;
+  background-color: white; /* Para que el fondo no sea transparente */
+  text-align: center;
+}
+
+.carrito{
+  position: absolute;
+  top: 60%;
+}
 
 .orden {
   display: flex;
